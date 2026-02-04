@@ -1,0 +1,109 @@
+# ==================== PYTHON ====================
+# Bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.tox/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.ENV/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Flask
+instance/
+.webassets-cache
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# ==================== NODE/REACT ====================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+build/
+dist/
+out/
+
+# ==================== PROJECT FILES ====================
+# Uploaded documents (SECURITY!)
+uploads/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:Encryptable
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Database dumps
+*.sql
+*.backup
+*.dump
+
+# Temp files
+*.tmp
+*.temp
+temp/
+
+# ==================== GIT SPECIFIC ====================
+# Ignore everything in uploads/ recursively
+uploads/**/*
+
+# OS specific
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
